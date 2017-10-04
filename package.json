@@ -1,0 +1,22 @@
+{
+  "name": "find-my-route",
+  "version": "1.0.0",
+  "description": "Web application to find your best route",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscarlin/find-my-route.git"
+  },
+  "author": "luiscarlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscarlin/find-my-route/issues"
+  },
+  "homepage": "https://github.com/luiscarlin/find-my-route#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
