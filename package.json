@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node ./bin/www",add 
+    "start": "node ./bin/www",
     "test": "echo \"nothing here yet\""
   },
   "babel": {
