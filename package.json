@@ -1,28 +1,23 @@
 {
-  "name": "find-my-route",
-  "version": "1.0.0",
-  "description": "Web application to find your best route",
-  "main": "index.js",
   "scripts": {
-    "test": "jasmine-node spec/"
+    "start": "node ./bin/www",add 
+    "test": "echo \"nothing here yet\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luiscarlin/find-my-route.git"
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   },
-  "author": "luiscarlin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/luiscarlin/find-my-route/issues"
-  },
-  "homepage": "https://github.com/luiscarlin/find-my-route#readme",
   "devDependencies": {
-    "eslint": "^4.8.0",
+    "eslint": "^4.9.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.2.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "jasmine-node": "^1.14.5"
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
   }
 }
