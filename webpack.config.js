@@ -2,9 +2,9 @@ var path = require('path')
 
 module.exports = {
 
-  entry: path.resolve(__dirname, 'client') + 'Router.jsx',
+  entry: path.resolve(__dirname, 'app') + 'Router.jsx',
   output: {
-    path: path.resolve(__dirname, 'dist') + '/client',
+    path: path.resolve(__dirname, 'dist') + '/app',
     filename: 'bundle.js',
     publicPath: '/app/'
   },
@@ -12,7 +12,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'app'),
         loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015']
