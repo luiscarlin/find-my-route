@@ -10,7 +10,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.js?/,
         include: path.resolve(__dirname, 'src'),
         loader: 'babel-loader',
         query: {
@@ -18,7 +18,7 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
+        test: /\.css?/,
         loader: 'style-loader!css-loader'
       }
     ]
